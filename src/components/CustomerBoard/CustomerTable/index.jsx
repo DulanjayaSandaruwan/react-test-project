@@ -28,8 +28,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-
-
 const CustomizedTables:React.FC<{rows:[]}> = ({children, rows}) =>  {
   return (
     <TableContainer component={Paper}>

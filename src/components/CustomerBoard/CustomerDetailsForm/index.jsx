@@ -39,6 +39,7 @@ class GridLayout extends Component {
         );
 
     }
+
      nameUpdate(event){
         console.log(event.target.value);
         const val = event.target.value;
